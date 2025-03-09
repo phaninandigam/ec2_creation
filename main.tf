@@ -10,7 +10,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "modules-workspace-tfstate-files" #bucketname
-    key = "statefiles" #path
+    key = "Assignment" #path
     region = "ap-south-1"
     # dynamodb_table = "terraform_state_lock_file"
     use_lockfile = true
