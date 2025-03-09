@@ -17,7 +17,7 @@ terraform {
   }
 }
 
-output "instance_public_ip" {
+output "instance_private_ip" {
   description = "Public IP of EC2 instance"
   value       = aws_instance.ourfirst.private_ip
 }
